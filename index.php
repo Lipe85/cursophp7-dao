@@ -7,7 +7,6 @@
 //	$root->loadById(1);
 //	echo $root;
 
-
 // Carrega uma lista de usuários
 //$lista = Usuario::getList();
 //echo json_ecode($lista);
