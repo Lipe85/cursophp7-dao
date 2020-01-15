@@ -6,7 +6,7 @@
 
 	$root->loadById(1);
 
-	echo "teste";
+	echo $root;
 	//var_dump($root);
 
 		
