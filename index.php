@@ -16,9 +16,16 @@
 //echo json_encode($search);
 
 //carrega um usuário validando pelo login e senha
-$usuario = new Usuario();
-$usuario->login("joao", "12345");
+//$usuario = new Usuario();
+//$usuario->login("joao", "12345");
 
-echo $usuario;
-		
+//echo $usuario;
+
+//Insere um usuário
+$aluno = new Usuario("aluno", "@luno");
+
+$aluno->insert();
+
+echo $aluno;
+
 ?>
