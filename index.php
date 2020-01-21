@@ -22,10 +22,23 @@
 //echo $usuario;
 
 //Insere um usuário
-$aluno = new Usuario("aluno", "@luno");
+//$aluno = new Usuario("aluno", "@luno");
+//$aluno->insert();
+//echo $aluno;
 
-$aluno->insert();
+//Alterando um usuário
 
-echo $aluno;
+//$usuario = new Usuario();
+//$usuario->loadById(1);
+//$usuario->update("professor", "teste");
+//echo $usuario;
+
+
+$usuario = new Usuario();
+$usuario->loadById(1);
+
+$usuario->delete();
+
+echo $usuario;
 
 ?>
